@@ -1,0 +1,260 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    margin: 0 auto;
+    overflow-x: hidden;
+}
+
+body {
+    width: 90%;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    font-family: 'Playfair Display', Georgia, serif;
+    background: #000;
+    margin: 0 auto;
+    height: 100vh;
+  }
+
+.container{
+    margin: 0 auto;
+    max-width: 1440px;
+    padding: 0 15px;
+
+}
+
+.header{
+    width: 90%;
+    background: #2C4C63;
+    min-height: 600px;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+
+}
+
+.logo{
+    width: 50%;
+    height: 100px;
+    margin: 35px 60px;
+}
+
+
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+
+}
+
+
+.menu a{
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 20px;
+    margin-top: 35px;
+    margin-left: 35px;
+}
+
+.menu a:hover{
+    color: #8ACEFF;
+}
+
+.hero-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    top: 180px;
+    left: 0;
+    margin: 0 25px;
+}
+
+.hero-section h1{
+    font-size: 60px;
+    line-height: 2.0;
+    color: #fff;
+}
+
+.text-title{
+    color: #8ACEFF;
+}
+
+.paragraph-hero{
+    line-height: 1.5;
+    margin: 10px 0;
+    width: 750px;
+    font-size: 22px;
+    color: #fff;
+}
+
+.btn-hero{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    /* border-radius: 50%; */
+    padding: 12px 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    position: absolute;
+    left:0;
+    top: inherit;
+    margin: 40px 30px;
+
+}
+
+.btn-hero:hover{
+    opacity: 0.7;
+}
+
+.main{
+    width: 100%;
+}
+
+.gallery-work{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 0 auto;
+    background: #fff;
+    margin-top:-80px;
+    z-index: 55555;
+    
+}
+
+.img-box{
+    padding: 15px;  
+    display: inline-block;
+    position: relative;
+}
+
+.img-box img{
+    width: 100%;
+    height: auto;
+    box-shadow: 0 0 6.5px rgba(0, 0, 0, .7);
+}
+
+.comment-experience{
+    width: 90%;
+    height: 400px;
+    background: rgb(19, 113, 180);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -70px;
+
+}
+
+blockquote{
+    font-size: 30px;
+    color: #fff;
+    padding: 50px;
+    width: 80%;
+}
+
+.about{
+    width: 90%;
+    height: 700px;
+    color: #000;
+    margin: 0 auto;
+    padding: 40px 0;
+    background: #fff;
+}
+
+.about h2{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.about p{
+    opacity: .8;
+    line-height: 1.5;
+    width: 800px;
+    margin: 0 auto;
+}
+
+.contact-me{
+    width: 90%;
+    background: #2C4C63;
+    text-align: center;
+    color: #fff;
+    margin: 0 auto;
+    padding:40px 0;
+}
+
+.contact-me h2{
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+.contact-me p{
+    font-size: 18px;
+    margin-bottom: 20px;
+
+}
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    /* margin: 0 auto; */
+    padding: 80px 0;
+}
+input, textarea {
+    margin-bottom: 15px;
+    padding: 20px;
+    border: none;
+    box-shadow: none;
+    transition: border-color 0.5s ease;
+    background-color: #333333;
+    color: #FFFFFF;
+    font-size: 16px;
+  }
+  input {
+    width: 38%;
+    display: inline-block;
+  }
+  textarea {
+    width: 38.2%;
+    color: #fff;
+    display: block;
+    margin-bottom: 15px;
+  }
+
+  .btn-form{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 12px 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    position: relative;
+    left:0;
+    top: inherit;
+    background: transparent;
+
+  }
+  .btn-form:hover{
+      opacity: .7;
+  }
+
+  footer{
+      background: #333333;
+      height: 5vh;
+      position: relative;
+      width: 90%;
+      text-align: center;
+      line-height: 4.5;
+      color: white;
+  }
